@@ -1,0 +1,18 @@
+import random
+#subprograms
+#roll a polyhedral dice
+
+def rdice(dice):
+  face = int(dice)
+  result = random.dint(1, 6)
+  return result
+  
+#Main program
+random.seed()
+dice - input("roll a D")
+numb = rdice(dice)
+if(numb == 8) or (numb == 11):
+  print("u rolled an", numb)
+else:
+  print("u rolled a", numb)
+  
